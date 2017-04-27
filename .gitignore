@@ -5,6 +5,10 @@ node_modules/
 bootstrap/compiled.php
 app/storage/
 
+public/hot
+public/storage
+storage/*.key
+
 # Laravel 5 & Lumen specific
 bootstrap/cache/
 .env.*.php
@@ -13,3 +17,10 @@ bootstrap/cache/
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+
+#IDEs
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
